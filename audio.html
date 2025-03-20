@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Custom Audio Player</title>
+    <link rel="stylesheet" href="audio.css" />
+  </head>
+  <body>
+    <div class="player-container">
+      <div class="control-buttons">
+        <button class="control-button previous-button" id="prevBtn">⏮</button>
+        <button class="control-button pause-button" id="pauseBtn">⏸</button>
+        <button class="control-button play-button" id="playBtn">▶</button>
+        <button class="control-button next-button" id="nextBtn">⏭</button>
+        <button class="control-button stop-button" id="stopBtn">⏹</button>
+      </div>
+
+      <div class="button-labels">
+        <span>Previous</span>
+        <span>Pause</span>
+        <span>Play</span>
+        <span>Next</span>
+        <span>Stop</span>
+      </div>
+
+      <div class="time-slider" id="timeSlider">
+        <div class="time-progress" id="timeProgress"></div>
+        <div class="time-handle" id="timeHandle"></div>
+      </div>
+
+      <div class="time-display">
+        <span id="currentTime">0:01</span>
+        <span id="duration">0:14</span>
+      </div>
+
+      
+    <div class="additional-controls">
+        <button class="mute-button" id="muteBtn">🔊 Mute</button>
+        <div class="speed-control">
+          <label for="speedSelect">Speed:</label>
+          <select id="speedSelect" class="speed-select">
+            <option value="0.5">0.5x</option>
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+          </select>
+        </div>
+      </div>
+
+      <audio id="audio">
+        <source id="audioSource" src="media/112.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

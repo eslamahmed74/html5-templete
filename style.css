@@ -1,0 +1,592 @@
+/* Global styles */
+
+/* type scale  : 1.25 */
+
+/* 
+  61px  -->  h1
+  48px  -->  h2
+  39px  -->  h3
+  31px  -->  h4
+  25px  -->  h5
+  20px  -->  h6
+  16px  -->  p
+  13px  --> small
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ================================== */
+
+/* ================= Nabar =========== */
+
+header {
+  background-color: #fff;
+}
+
+header img {
+  float: left;
+  margin: 30px 60px 0px 60px;
+}
+
+header .links {
+  float: right;
+}
+
+header ul {
+  list-style: none;
+  margin: 30px 70px 30px;
+  display: inline-block;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+header a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #101a31;
+}
+
+.visit-us {
+  background-color: #be9278;
+  padding: 30px 65px;
+}
+
+/* ================ hero section ============== */
+
+.hero-section {
+  height: 850px;
+  background: linear-gradient(
+      to right,
+      rgba(16, 26, 48, 0.7) 0%,
+      rgba(16, 26, 48, 0.7) 12%,
+      #101a31 91%,
+      #101a31 100%
+    ),
+    url('images/h1_hero.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  left: 11.5%;
+  color: #fff;
+  bottom: 20%;
+  width: 40%;
+}
+
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 83.6px;
+  font-weight: 600;
+  margin: 20px 0px 30px 0px;
+}
+
+.hero-content p {
+  line-height: 30px;
+  width: 78%;
+}
+
+.hero-content .our-services {
+  background-color: #be9278;
+  padding: 28px 60px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 750px;
+}
+
+.hero-img img {
+  height: 100%;
+  width: 660px;
+}
+
+/* ===================== main =============== */
+
+main {
+  /* background-color: lightblue; */
+  width: 80%;
+  margin: 0px auto;
+  padding: 100px 0px;
+}
+
+.offer {
+  display: inline-block;
+  width: 33%;
+}
+
+.offer-img {
+  padding: 0px 40px;
+}
+
+.offer img {
+  width: 100%;
+}
+
+.offer-content {
+  padding: 40px;
+  position: relative;
+}
+
+.offer-content span {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #c6a16e;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -17px;
+  top: 25px;
+}
+
+.offer-content h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.offer-content p {
+  line-height: 30px;
+  color: #101a31;
+  width: 80%;
+}
+
+/* ========= about ============ */
+
+.about {
+  width: 85%;
+  margin: 50px auto 150px;
+  position: relative;
+  height: 800px;
+}
+
+.about-img {
+  position: absolute;
+  z-index: 3;
+  top: 15%;
+}
+
+.about-img img {
+  width: 660px;
+  height: 570px;
+}
+
+.about-content {
+  position: absolute;
+  background-color: #f2e1d9;
+  right: 0;
+  height: 100%;
+  width: 70%;
+}
+
+.about-cap {
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+
+.about-cap h2 {
+  font-size: 56px;
+  line-height: 67.2px;
+  font-weight: 600;
+  color: #101a31;
+}
+
+.about-cap .first-p {
+  font-size: 18px;
+  line-height: 30.6px;
+  color: #010a44;
+  margin: 25px 0px 20px 0px;
+}
+
+.about-cap .second-p {
+  font-size: 14px;
+  color: #10285d;
+  line-height: 30px;
+}
+
+.about-cap .more-about-us {
+  background-color: #ba8d72;
+  padding: 25px 65px;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+/* ======================== why =========== */
+.why {
+  width: 80%;
+  margin: 50px auto 150px;
+  text-align: center;
+}
+
+.why header {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.why h2 {
+  color: #101a31;
+  font-size: 53px;
+}
+
+.why p {
+  color: #101a31;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+/* ================= services ============= */
+
+.services {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.service {
+  width: 22%;
+  display: inline-block;
+  margin: 20px 1%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.service-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.service-img img {
+  display: block;
+}
+
+.service-content {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.service-content h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #101a31;
+  margin: 0;
+}
+
+.service-content h4:hover {
+  color: black;
+}
+
+.service-content p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #101a31;
+  margin: 10px 0 0 0;
+  font-weight: 400;
+}
+
+.video {
+  width: 100%;
+  margin: 0;
+  height: 700px;
+  background-image: url('images/video-bg.png.webp');
+}
+/* ================= comments ============= */
+
+.comments {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  padding-left: 60px;
+  text-align: left;
+}
+.content article {
+  color: #101a31;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content img {
+  position: absolute;
+  left: 20;
+  top: -10px;
+  width: 50px;
+  height: auto;
+  z-index: -1;
+}
+
+.account {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.account img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+.accountName {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.accountName h6 {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #101a31;
+}
+
+.accountName p {
+  display: inline;
+  color: gray;
+  font-size: 14px;
+  margin-top: 0px;
+  color: #101a31;
+}
+
+.pagination {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 18px;
+}
+
+.arrow {
+  color: #c39b7b;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.page {
+  margin: 0 5px;
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* =============== follow ================ */
+
+.follow {
+  width: 80%;
+  margin: 50px auto 150px;
+  text-align: center;
+}
+
+.follow header {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.follow h2 {
+  color: #101a31;
+  font-size: 53px;
+}
+
+.follow p {
+  color: #101a31;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.follow .links a {
+  margin: 10px;
+}
+
+/* ================= footer ============= */
+
+footer {
+  background: linear-gradient(
+      to right,
+      rgba(16, 26, 48, 0.7) 0%,
+      rgba(16, 26, 48, 0.7) 12%,
+      #101a31 91%,
+      #101a31 100%
+    ),
+    url('images/offers3.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 70px 0px 10px 0px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.verticalFoot {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footerImg {
+  width: 50%;
+  float: left;
+}
+
+.footerImg img {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  float: left;
+  color: white;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.solution {
+  margin-top: 20px;
+}
+
+footer h4 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #be9278;
+}
+
+.contact p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact .des {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px;
+  color: white;
+}
+
+.contact .ph1 {
+  color: #be9278;
+  font-size: 26px;
+  line-height: 39px;
+  margin: 10px;
+}
+
+.contact .ph2 {
+  color: #be9278;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 10px;
+}
+
+.btns ul {
+  padding: 0;
+  margin: 10px;
+  list-style: none;
+}
+
+.btns li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.btns a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer .links ul {
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+}
+
+footer .links li {
+  margin-top: 10px;
+}
+
+footer .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+footer .links a:hover {
+  color: #c39b7b;
+}
+.copyright p {
+  display: inline-block;
+}
+footer button {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #c39b7b;
+  color: white;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+}

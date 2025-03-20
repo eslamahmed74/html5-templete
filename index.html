@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Html 5</title>
+    <!-- 
+    
+    html : hyper text markup language.
+
+    html5 (latest version) : new elements (semantic tags) , new input types and attrs, media tags (audio , video) , graphic tags (canvas , svg) ,
+    js apis (local storage , session storage , geolocation) 
+
+
+
+    Semantic tags : nav , header , section , article , main , aside , footer, details , summary  ,......
+  
+      1- Clean code 
+      2- SEO (search engine optimization)
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header>
+      <img src="images/logo.png" alt="" />
+      <nav class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="btn visit-us">Visit us</a>
+      </nav>
+      <section class="clearfix"></section>
+    </header>
+
+    <!-- Hero section -->
+
+    <section class="hero-section">
+      <section class="hero-content">
+        <img src="images/hero-icon.png" alt="" />
+        <h1>We make cloths that suit you</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+          porro, ullam vero nemo deleniti pariatur amet excepturi vel accusamus
+          autem cum!
+        </p>
+        <a href="#" class="btn our-services">our services</a>
+      </section>
+
+      <section class="hero-img">
+        <img src="images/h1_hero1.png" alt="" />
+      </section>
+    </section>
+
+    <!-- Main -->
+
+    <main>
+      <section class="offer">
+        <section class="offer-img">
+          <img src="images/offers1.png" alt="" />
+        </section>
+        <section class="offer-content">
+          <span>1</span>
+          <h3>Tailor Sweing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </section>
+      </section>
+      <section class="offer">
+        <section class="offer-img">
+          <img src="images/offers2.png" alt="" />
+        </section>
+        <section class="offer-content">
+          <span>2</span>
+          <h3>Mesurement</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </section>
+      </section>
+      <section class="offer">
+        <section class="offer-img">
+          <img src="images/offers3.png" alt="" />
+        </section>
+        <section class="offer-content">
+          <span>3</span>
+          <h3>Ready-made</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <!-- about -->
+    <section class="about">
+      <section class="about-img">
+        <img src="images/visit_bg.png" alt="" />
+      </section>
+
+      <section class="about-content">
+        <section class="about-cap">
+          <h2>
+            About our <br />
+            tailor house
+          </h2>
+
+          <p class="first-p">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Suspendisse varius enim in eros.
+          </p>
+          <p class="second-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            Suspendisse varius enim in eros elementum tristique. Duis <br />
+            cursus, mi quis viverra ornare.
+          </p>
+          <a href="#" class="btn more-about-us">more about us</a>
+        </section>
+      </section>
+    </section>
+
+    <!--  services -->
+
+    <section class="why">
+      <header>
+        <h2>Why use our service?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+          Suspendisse varius enim in eros.
+        </p>
+      </header>
+
+      <section class="services">
+        <section class="service">
+          <section class="service-img">
+            <img src="images/services1.svg" alt="" />
+          </section>
+          <section class="service-content">
+            <h4>Tailor Sweing</h4>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit. <br />
+              Suspendisse varius enim in eros <br />
+              elementum tristique
+            </p>
+          </section>
+        </section>
+        <section class="service">
+          <section class="service-img">
+            <img src="images/services2.svg" alt="" />
+          </section>
+          <section class="service-content">
+            <h4>Tailor Sweing</h4>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit. <br />
+              Suspendisse varius enim in eros <br />
+              elementum tristique
+            </p>
+          </section>
+        </section>
+        <section class="service">
+          <section class="service-img">
+            <img src="images/services3.svg" alt="" />
+          </section>
+          <section class="service-content">
+            <h4>Tailor Sweing</h4>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit. <br />
+              Suspendisse varius enim in eros <br />
+              elementum tristique
+            </p>
+          </section>
+        </section>
+        <section class="service">
+          <section class="service-img">
+            <img src="images/services4.svg" alt="" />
+          </section>
+          <section class="service-content">
+            <h4>Tailor Sweing</h4>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit. <br />
+              Suspendisse varius enim in eros <br />
+              elementum tristique
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <!-- video -->
+    <section class="video"></section>
+
+    <!-- comments -->
+    <section class="comments">
+      <section class="content">
+        <img id="quotesImg" src="images/quotes-sign.png" alt="quotes" />
+        <article>
+          Brook presents your services with flexible, convenient and composed
+          layouts. You <br />
+          can select your favorite layouts & elements for particular tasks with
+          unlimited <br />
+          customization possibilities. Pixel-perfect replication of the
+          designers' <br />
+          intended concepts ensures your success
+        </article>
+      </section>
+      <section class="account">
+        <img src="images/testimonial.png" alt="account" />
+        <section class="accountName">
+          <h6>Robart Brown</h6>
+          <p>Creative designer at Colorlib</p>
+        </section>
+      </section>
+      <section class="pagination">
+        <span class="arrow left">&larr;</span>
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="arrow right">&rarr;</span>
+      </section>
+    </section>
+
+    <!-- follow us  -->
+
+    <section class="follow">
+      <header>
+        <h2>Follow us on Instagram</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+          Suspendisse varius enim in eros.
+        </p>
+      </header>
+      <section class="links">
+        <a href="#" class="img"
+          ><img src="images/instra1.png" alt="insta 1 image" />
+        </a>
+        <a href="#" class="img"
+          ><img src="images/instra2.png" alt="insta 2 image"
+        /></a>
+      </section>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <section class="verticalFoot">
+        <section class="footerImg">
+          <img src="images/map.png.webp" alt="map" />
+        </section>
+        <section class="contact">
+          <h4>Tailor .</h4>
+          <p class="des">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing.
+          </p>
+          <p class="ph1">(80) 783 367-3904</p>
+          <p class="ph2">(80) 783 367-3904</p>
+          <section class="btns">
+            <ul>
+              <li>
+                <a href="https://www.fb.com" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="solution">
+          <h4>Our solutions</h4>
+          <nav class="links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+      </section>
+
+      <section class="copyright"><p>This template is made with love ❤</p>
+        <button id="scrollToTopBtn" title="Go to top">↑</button>
+      </section>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
